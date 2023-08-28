@@ -31,7 +31,7 @@ def get_ego_trajectory(nusc: NuScenes, sample_token: str, seconds: float = 2.0, 
 def get_agent_trajectory(helper: PredictHelper, instance_token: str, sample_token: str, seconds: float = 2.0):
     return helper.get_past_for_agent(instance_token, sample_token, seconds=seconds, in_agent_frame=False)
 
-def preprocess_camera_image(image_path: str, target_size=(320, 640)):
+def preprocess_camera_image(image_path: str, target_size=(224, 224)):
     preprocess = transforms.Compose([
         transforms.Resize(target_size),
         transforms.ToTensor(),
