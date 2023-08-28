@@ -1,6 +1,5 @@
 import torch.nn as nn
 
-
 class EgoPastEncoder(nn.Module):
     def __init__(self, input_size=2, hidden_size=128, num_layers=1):
         super(EgoPastEncoder, self).__init__()
