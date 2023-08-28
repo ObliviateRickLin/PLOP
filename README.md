@@ -28,7 +28,7 @@ The PLOP model consists of two main components: an encoder and a predictor. The 
 - Neighbors' trajectories prediction: Utilizes fully connected (FC) layers to output a multivariate Gaussian mixture.
 - Ego vehicle trajectory prediction: Similar to neighbors but adds image encoding as an input and a conditional dimension to the FC layers.
 
-![Model Architecture](assets\model_structure.png)
+![Model Architecture](assets/model_structure.png)
 
 ## Prerequisites
 
