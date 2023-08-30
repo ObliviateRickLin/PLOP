@@ -37,41 +37,6 @@ The PLOP model consists of two main components: an encoder and a predictor. The 
 - NumPy
 - (Any other dependencies)
 
-## Installation
-
-Clone the repository and install the required packages:
-
-\`\`\`bash
-git clone https://github.com/yourusername/PLOP-Trajectory-Prediction.git
-cd PLOP-Trajectory-Prediction
-pip install -r requirements.txt
-\`\`\`
-
-## Usage
-
-### Data Preparation
-
-(Explain how to prepare the data, any preprocessing steps, and how to organize the data folders.)
-
-### Training
-
-To train the model, run:
-
-\`\`\`bash
-python train.py --(your options here)
-\`\`\`
-
-### Evaluation
-
-To evaluate the model, run:
-
-\`\`\`bash
-python evaluate.py --(your options here)
-\`\`\`
-
-## Results
-
-(Include any results, graphs, or performance metrics here.)
 
 ## Contributing
 
